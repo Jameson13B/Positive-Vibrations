@@ -11,12 +11,12 @@ class App extends Component {
         {
           name: 'Rasta Blessing Room',
           description: 'This is the entire first level of the Rasta building. The private veranda provides an outdoor spot to relax and meet other guests at the yard.',
-          amenities: ['Veranda', 'Ceiling Fan', 'Bathroom with Shower', 'Second Story']
+          amenities: ['Veranda', 'Ceiling Fan', 'Bathroom with Shower', 'First Story']
         },
         {
           name: 'Rasta Treehouse Room',
           description: 'This is the entire second level of the Rasta building. The private veranda provides amazing views of the top of the trees and the neighborhood.',
-          amenities: ['Veranda', 'Ceiling Fan', 'Bathroom with Shower', 'First Story']
+          amenities: ['Veranda', 'Ceiling Fan', 'Bathroom with Shower', 'Second Story']
         },
         {
           name: 'Blue and White House',
@@ -26,6 +26,7 @@ class App extends Component {
       ]
     }
   }
+  var database = firebase.database()
   render() {
     return (
       <div className="App">
